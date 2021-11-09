@@ -14,5 +14,6 @@ exports.conf = {
 exports.help = {
   name: "aki",
   category: "Games",
+  description: "Play Akinator.",
   usage: "aki"
 };
