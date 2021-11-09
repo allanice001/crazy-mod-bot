@@ -45,7 +45,7 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
     message.reply({ content: `${key} successfully edited to ${joinedValue}`, allowedMentions: { repliedUser: (replying === "true") }});
   } else
 
-    // Resets a key to the default value
+  // Resets a key to the default value
   if (action === "del" || action === "reset") {
     if (!key) return message.reply({ content: "Please specify a key to reset.", allowedMentions: { repliedUser: (replying === "true") }});
     if (!defaults[key]) return message.reply({ content: "This key does not exist in the settings", allowedMentions: { repliedUser: (replying === "true") }});
@@ -60,7 +60,7 @@ exports.run = async (client, message, [action, key, ...value], level) => { // es
       settings.delete(message.guild.id, key);
       message.reply({ content: `${key} was successfully reset to default.`, allowedMentions: { repliedUser: (replying === "true") }});
     } else
-      // If they respond with n or no, we inform them that the action has been cancelled.
+    // If they respond with n or no, we inform them that the action has been cancelled.
     if (["n","no","cancel"].includes(response)) {
       message.reply({ content: `Your setting for \`${key}\` remains at \`${serverSettings[key]}\``, allowedMentions: { repliedUser: (replying === "true") }});
     }

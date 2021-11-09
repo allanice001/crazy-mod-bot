@@ -1,0 +1,46 @@
+{
+  "name": "crazy-mod-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "nodemonConfig": {
+    "exec": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allanice001/crazy-mod-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allanice001/crazy-mod-bot/issues"
+  },
+  "homepage": "https://github.com/allanice001/crazy-mod-bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@koenie06/discord.js-music": "^1.2.9",
+    "@sapphire/time-utilities": "^1.4.7",
+    "colorette": "^2.0.16",
+    "discord.js": "^13.3.1",
+    "discord.js-akinator": "^3.3.1",
+    "dotenv": "^10.0.0",
+    "enmap": "^5.8.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "nodemon": "^2.0.14"
+  }
+}

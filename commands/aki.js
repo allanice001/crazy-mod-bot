@@ -1,8 +1,8 @@
 const akinator = require("discord.js-akinator");
 
 exports.run = async (client, message, args) => {
-  akinator(message, client)
-}
+  akinator(message, client, args);
+};
 
 exports.conf = {
   enabled: true,
@@ -15,4 +15,4 @@ exports.help = {
   name: "aki",
   category: "Games",
   usage: "aki"
-}
+};

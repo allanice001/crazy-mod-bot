@@ -1,7 +1,7 @@
 const config = require("../config");
 const { settings } = require("../modules/settings");
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
-                                                        // Grab the container from the client to reduce line length.
+  // Grab the container from the client to reduce line length.
   const { container } = client;
   const replying = settings.ensure(message.guild.id, config.defaultSettings).commandReply;
   if (!args || args.length < 1) return message.reply("Must provide a command name to reload.");
