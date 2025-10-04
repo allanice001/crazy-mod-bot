@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/allanice001/crazy-mod-bot#readme",
   "dependencies": {
-    "@discordjs/builders": "^0.14.0",
+    "@discordjs/builders": "^0.15.0",
     "@koenie06/discord.js-music": "^1.2.9",
     "@sapphire/time-utilities": "^1.4.7",
     "colorette": "^2.0.16",
