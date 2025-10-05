@@ -32,7 +32,7 @@
     "discord.js": "^13.17.1",
     "discord.js-akinator": "^3.4.5",
     "dotenv": "^10.0.0",
-    "enmap": "^5.8.7"
+    "enmap": "^5.9.10"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
