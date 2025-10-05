@@ -8,7 +8,7 @@
     "dev": "nodemon"
   },
   "engines": {
-    "node": ">=16.8.0"
+    "node": ">=16.9.1"
   },
   "nodemonConfig": {
     "exec": "node index.js"
