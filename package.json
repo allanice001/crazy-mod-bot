@@ -30,7 +30,7 @@
     "@sapphire/time-utilities": "^1.7.14",
     "colorette": "^2.0.16",
     "discord.js": "^13.17.1",
-    "discord.js-akinator": "^3.4.5",
+    "discord.js-akinator": "^5.0.1",
     "dotenv": "^10.0.0",
     "enmap": "^5.9.10"
   },
