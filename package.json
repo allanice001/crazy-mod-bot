@@ -31,12 +31,12 @@
     "colorette": "^2.0.16",
     "discord.js": "^13.17.1",
     "discord.js-akinator": "^3.4.5",
-    "dotenv": "^10.0.0",
+    "dotenv": "^15.0.1",
     "enmap": "^5.9.10"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
