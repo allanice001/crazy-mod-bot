@@ -31,7 +31,7 @@
     "colorette": "^2.0.16",
     "discord.js": "^13.17.1",
     "discord.js-akinator": "^3.4.5",
-    "dotenv": "^10.0.0",
+    "dotenv": "^12.0.4",
     "enmap": "^5.9.10"
   },
   "devDependencies": {
