@@ -32,7 +32,7 @@
     "discord.js": "^13.17.1",
     "discord.js-akinator": "^3.4.5",
     "dotenv": "^10.0.0",
-    "enmap": "^5.9.10"
+    "enmap": "^6.1.6"
   },
   "devDependencies": {
     "eslint": "^8.2.0",
@@ -40,7 +40,7 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.1",
+    "eslint-plugin-promise": "^6.0.0",
     "nodemon": "^2.0.14"
   }
 }
